@@ -1,5 +1,7 @@
 # Python-AWS-Polly
 Sample Python scripts to use AWS Polly service. This repo has been created as part of the Pied Piper program 2017
+You can find a more elaborated discussion in here, including a short video of the code at work:
+http://anzpiper.blogspot.com/2017/08/get-aws-polly-to-talk-to-you-from-python.html
 ## Usage
 * Before starting make sure you install Boto3 module by running "pip install boto3"
 * Then you need to ensure the AWS credentials are available to the script. You could accomplish this by means of:
