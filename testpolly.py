@@ -12,7 +12,7 @@ m = time.strftime("%B")
 t = time.strftime("%I:%M %p")
 talk_to_me = "Hello Alberto! I would like to remind you that today is" + d +" of " + m + "and the time is " + t
 
-polly = boto3.client('polly')
+polly = boto3.client('polly', region_name=region_name, aws_access_key_id = aws_access_key_id, aws_secret_access_key = aws_secret_access_key)
 
 response = polly.synthesize_speech(
     OutputFormat='mp3',
