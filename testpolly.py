@@ -3,8 +3,8 @@ import subprocess
 import os
 import time
 
-aws_access_key_id = os.environ['ACCESS_KEY'],
-aws_secret_access_key = os.environ['SECRET_KEY'],
+aws_access_key_id = os.environ['ACCESS_KEY']
+aws_secret_access_key = os.environ['SECRET_KEY']
 region_name='us-west-2'
 
 d = time.strftime("%A %d")
